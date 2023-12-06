@@ -1,17 +1,22 @@
-import Image from 'next/image';
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <header className='flex items-center w-full px-6 h-16 shadow bg-white'>
-      <nav className='flex items-center m-auto w-[min(100%,1400px)]'>
-        <div className='w-full'>Personal Site</div>
-        <div className='flex items-center gap-3'>
-          <a href='/about' className='p-2'>
-            About
-          </a>
-          <a href='/projects' className='p-2'>
+    <header className="flex h-16 w-full items-center bg-white px-6 shadow">
+      <nav className=" m-auto flex w-[min(100%,1400px)] items-center">
+        <div className="w-full">
+          <Link href="/" className="p-2">
+            Personal Site
+          </Link>
+        </div>
+        <div className="flex items-center gap-3">
+          <Link href="/projects" className="p-2">
             Projects
-          </a>
+          </Link>
+          <Link href="/contact" className="p-2">
+            Contract
+          </Link>
         </div>
       </nav>
     </header>

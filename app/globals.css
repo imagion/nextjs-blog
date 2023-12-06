@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply bg-neutral-100;
+    @apply h-screen bg-neutral-100;
   }
 }
