@@ -7,6 +7,9 @@ export default function ContactPage() {
           <li>List</li>
           <li>List</li>
           <li>List</li>
+          <li>List</li>
+          <li>List</li>
+          <li>List</li>
         </ul>
       </div>
     </main>
